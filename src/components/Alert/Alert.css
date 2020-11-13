@@ -1,0 +1,20 @@
+.alert__wrap {
+    padding: 20px;
+    position: fixed;
+    width: 80%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.alert--warning {
+    background-color: rgb(231, 139, 139);
+    border: 2px solid red;
+    border-radius: 7px;
+}
+
+.alert--success {
+    background-color: rgb(111, 238, 122);
+    border: 2px solid rgb(0, 168, 42);
+    border-radius: 7px;
+}

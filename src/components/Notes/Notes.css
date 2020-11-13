@@ -1,0 +1,37 @@
+.notes__list {
+    background-color: grey;
+    padding: 20px;
+}
+
+.notes__item {
+    margin-bottom: 20px;
+    padding: 20px;
+    color: white;
+    background-color: rgb(100, 100, 100);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    ;
+}
+
+.notes__item:hover {
+    background-color: rgb(83, 83, 83);
+}
+
+.btn-delete {
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-delete:hover,
+.btn-delete:focus,
+.btn-delete:active {
+    background-color: rgb(192, 4, 4);
+    outline: none;
+}
